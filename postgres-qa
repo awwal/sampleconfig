@@ -1,0 +1,9 @@
+listen_addresses = 'qa.test.com'		# what IP address(es) to listen on;
+					# comma-separated list of addresses;
+					# defaults to 'localhost'; use '*' for all
+					# (change requires restart)
+port = 2432				# (change requires restart)
+max_connections = 200			# (change requires restart)
+max_prepared_transactions = 200		# zero disables the feature
+shared_buffers = 128MB			# min 128kB
+timezone = 'Europe/Helsinki'
